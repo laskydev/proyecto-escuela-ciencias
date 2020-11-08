@@ -1,9 +1,30 @@
-let parallax = document.querySelector('.s1')
-let titulo = document.querySelector('.titulo1')
-function scrollParallax(){
-    let scrollTop = document.documentElement.scrollTop;
-    parallax.style.transform = 'translatey('+ scrollTop * -0.5 + 'px)';
-    titulo.style.transform = 'translatey('+ scrollTop * 0.3 + 'px)';
+//Funcion para dar el efecto parallax permanente
+function scale(section){
+    section.animate([
+        {transform: 'scale(1)'},
+        {transform: 'scale(1.010)'}],
+        {duration:1000, 
+        direction:'alternate',
+        iterations:Infinity})
+    
 }
+//Funcion para que se mueva el botón de flecha que señala abajo
+function buttonTranslate(button){
+    button.animate([
+        {transform: 'scale(1)'},
+        {transform: 'scale(1.010)'}],
+        {duration:1000, 
+        direction:'alternate',
+        iterations:Infinity})
+}
+const section1 = document.getElementById('s1')
+const section2 = document.getElementById('s2')
+const section3 = document.getElementById('s3')
+const section4 = document.getElementById('s4')
 
-window.addEventListener('scroll', scrollParallax)
+scale(section1)
+scale(section2)
+scale(section3)
+scale(section4)
+
+
