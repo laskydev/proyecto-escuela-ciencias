@@ -4,11 +4,17 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 section{
     width: 100%;
     height: 100vh;
     display: flex;
     overflow: hidden;
+    position: relative;
 }   
 
 a{
@@ -23,6 +29,140 @@ a{
     align-items: center;
 }
 
+.section2{
+    
+}
+
+/*Posicion del boton de regreso*/
+.button-return{
+    position: absolute;
+    left: 90%;
+    top:2%;
+}
+
+/* Creamos las posiciones para las plantillas A y B que estarán en las distintas secciones intercalandolas*/
+
+/* SECTION A */
+.tittle-sectionA{
+    position: absolute;
+    left: 15px;
+    top:200px;
+    font-size: 3rem;
+    color: #611427;
+    -webkit-text-stroke: 1px #fff;
+    paint-order: stroke fill;
+
+}
+
+.subtitle-sectionA{
+    position: absolute;
+    left: 30%;
+    top:60%;
+    font-size:1.5rem;
+    color: #1D2326;
+    -webkit-text-stroke: 1px #fff;
+
+
+}
+
+.button-position_sectionA{
+    position: absolute;
+    left: 100px;
+    top: 85%;
+}
+
+/* SECTION B */
+
+.tittle-sectionB{
+    position: absolute;
+    top:85px;
+    font-size:3rem;
+    left: 15px;
+    color: #611427;
+    -webkit-text-stroke: 1px #fff;
+    paint-order: stroke fill;
+}
+
+
+.text-sectionB{
+    position: absolute;
+    top:75%;
+    left: 15%;
+    font-size:1.5rem;
+    color: #fff;
+    -webkit-text-stroke: 1px black;
+
+}
+
+.button-position_sectionB{
+    position: absolute;
+    left: 0;
+    top: 85%;
+}
+
+
+/* SECTION C */
+
+.subtittle-sectionC{
+    position: absolute;
+    left:15px;
+    top:30%;
+    right: 50%;
+    text-align: center;
+    color: #fff;
+    -webkit-text-stroke: 1px black;
+}
+.tittle-sectionC{
+    position: absolute;
+    width: 50%;
+    top:85px;
+    font-size:3rem;
+    left: 15px;
+    text-align: center;
+    color: #611427;
+    -webkit-text-stroke: 1px #fff;
+    paint-order: stroke fill;
+}
+
+
+.text-sectionC{
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    -webkit-text-stroke: 1px black;
+    left: 58%;
+    font-size:1.5rem;
+    top: 30%;
+    margin-right: 15px;
+   
+
+}
+
+.image-sectionC{
+    position: absolute;
+    left: 233px;
+    top: 36%;
+}
+
+.button-position_sectionB{
+    position: absolute;
+    left: 100px;
+    top: 85%;
+}
+
+
+.section3{
+
+}
+
+.section4{
+
+}
+
+.section5{
+
+}
+
 .s1{
     width: 100vw;
     height: 100vh;
@@ -31,7 +171,6 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
     filter: blur(3px);
-
     
 }
 
@@ -86,3 +225,63 @@ a{
 .button-position_section1{
     margin-top: 200px;
 }
+
+.finally{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+}       
+
+.finally h1{
+    color: white;
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.finally h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: wheat;
+}
+
+.finally  img{
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+
+/* ? ----- Cuenta Regresiva ----- */
+#cuenta {
+	display: flex;
+    justify-content: center;
+    margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.simply-section {
+	background: #fff;
+	width: 180px;
+	height: 180px;
+	margin: 0 20px;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.simply-amount {
+	display: block;
+	font-size: 50px;
+	font-weight: 700;
+}
+
+.simply-word {
+	font-weight: 300;
+	font-size: 30px;
+}
+
+
+/* ? ---------------------------- */
