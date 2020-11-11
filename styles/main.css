@@ -101,6 +101,7 @@ a{
 }
 
 
+
 /* SECTION C */
 
 .subtittle-sectionC{
@@ -150,18 +151,6 @@ a{
     top: 85%;
 }
 
-
-.section3{
-
-}
-
-.section4{
-
-}
-
-.section5{
-
-}
 
 .s1{
     width: 100vw;
@@ -251,6 +240,7 @@ a{
     margin-top: 20px;
     margin-left: 30px;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 
@@ -285,4 +275,7 @@ a{
 }
 
 
+
+
 /* ? ---------------------------- */
+
